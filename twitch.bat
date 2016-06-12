@@ -48,10 +48,10 @@ IF /I %COMMAND%==YT (
 	REM Moving to YOUTUBELOOP
 	GOTO :YOUTUBELOOP
 	)
-IF /I %COMMAND%==DASH (
+REM IF /I %COMMAND%==DASH (
 	REM Moving to DASHLOOP
-	GOTO :DASHLOOP
-	)
+REM	GOTO :DASHLOOP
+REM	)
 IF /I %COMMAND%==PANDORA (
 	REM Moving to SOUNDLOOP
 	GOTO :PANDORALOOP
@@ -82,7 +82,7 @@ ECHO		DISCORD: Launch Discord program
 ECHO 	SOUND: **IN DEVELOPMENT** Launch Sound Settings program
 ECHO 	PRO: Launch Streampro.com Window		ALERT: Launch TwitchAlerts.com Window
 ECHO 	YT: Launch a Youtube Window
-ECHO	DASH: Open Twitch dashboard
+ECHO		DASH: **IN DEVELOPMENT** Open Twitch dashboard
 ECHO 	PANDORA: Launch Pandora.com program
 ECHO 	QUIT: Soft Quit
 ECHO 	EXIT: Hard Quit
